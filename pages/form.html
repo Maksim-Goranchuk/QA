@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html">Головна</a>
+        <a href="./form.html">Форма</a>
+        <a href="./contact.html">Контакти</a>
+      </nav>
+    </header>
+    Це сторінка ФОРМИ
+    <br>
+    <br>
+    <form method="post" action="https://fom.in.ua/echo">
+      <label for="name">Ваше ім'я: </label> <input type="text" placeholder="ваше ім'я..." id="name" maxlength="5" title="Максимальна довжина 5 символів" name="Name">
+      <br>
+      <br>
+      <label for="date">Дата народженя: </label><input type="date" id="date" name="Date">
+      <br>
+      <br>
+      <label>Введіть пароль: </label><input type="password" name="Password">
+      <br>
+      <br>
+      <label>Введіть емейл: </label><input type="email" name="email">
+      <br>
+      <br>
+      <label>Чоловік</label><input type="radio" name="Gender" value="male">
+      <br>
+      <label>Жінка</label><input type="radio" name="Gender" value="female">
+      <br>
+      <br>
+      <label>Погоджуюсь з рекламою</label><input type="checkbox" name="Checkbox" value="ad">
+      <br>
+      <label>Погоджуюсь з обробкою даних</label><input type="checkbox"  name="Checkbox" value="data">
+      <br>
+      <label>ППрочитав правила</label><input type="checkbox"  name="Checkbox" value="rules">
+
+
+      <br>
+      <br>
+      <input type="button" value="BUTTON">
+      <br>
+      <br>
+      <input type="submit" value="SUBMIT">
+
+    </form>
+  </body>
+</html>
